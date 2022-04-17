@@ -30,15 +30,6 @@ for (let i = 0; i <= rgbTwo.length -1; i++) {
 console.log(rgbTwo)
 
 //for box 3
-let rThree = rgbOne[0] + rgbTwo[0] - 255;
-
-let gThree = rgbOne[1] + rgbTwo[1] - 255;
-
-let bThree = rgbOne[2] + rgbTwo[2] - 255;
-
-let rgbThree = `rgb(${rThree}, ${gThree}, ${bThree}`
-
-document.getElementById('boxThree').style.backgroundColor = rgbThree
 
 let vectorOne = [rgbOne[1]*0.5, rgbOne[0]*0.5, rgbOne[2]*0.5];
 let vectorTwo = [rgbTwo[1]*0.5, rgbTwo[0]*0.5, rgbTwo[2]*0.5];
@@ -48,5 +39,7 @@ console.log(vectorOne)
 let resultantVector = [vectorOne[0] + vectorTwo[0], vectorOne[1] + vectorTwo[1], vectorOne[2] + vectorTwo[2]]
 
 let rgbThreeReal = `rgb(${resultantVector[1]}, ${resultantVector[0]}, ${resultantVector[2]})`
+
+console.log(rgbThreeReal)
 
 document.getElementById('boxThree').style.backgroundColor = rgbThreeReal
