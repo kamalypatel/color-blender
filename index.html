@@ -5,27 +5,47 @@
     	<meta name="description" content="This is where your description goes">
     	<meta name="keywords" content="one, two, three">
 
-		<title>Title in the tab</title>
+		<title>Watercolor Paint Blender</title>
 
 		<!-- external CSS link -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;800&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/style.css">
 	</head>
 	<body>
-		<div>
-			<input id="boxOne" type="color" id="head" name="head"
-				   value="#0000ff">
-			<label for="head">Head</label>
-		</div>
-		
-		<div>
-			<input id="boxTwo" type="color" id="body" name="body"
-					value="#ff0000">
-			<label for="body">Body</label>
-		</div>
-		
-		<div id="boxFour" class="boxFour box"></div>
+		<h1>Watercolor Paint Blender</h1>
 
+		<h2>This is an estimator for mixing 2 colors/pigments together.</h2>
+
+		<h3>This estimator should be a starting point for your ideas.</h3>
+		<h3>How much water or pigment you add will affect your colors.</h3>
+
+		<br>
+
+		<div class="colorContainer">
+			<div class="selectSection">
+				<label for="head">Select Color 1:</label>
+				<span></span>
+				<input id="boxOne" type="color" id="head" name="head" value="#0000ff">
+			</div>
+
+			<p class="plus">+</p>
+
+			<div class="selectSection">
+				<label for="body">Select Color 2:</label>
+				<span></span>
+				<input id="boxTwo" type="color" id="body" name="body" value="#ff0000">
+			</div>
+
+			<p class="plus">+</p>
+			<div class="answer">
+				<div id="boxFour" class="boxFour box" style="background-color: #800080"></div>
+				<p id="colorText" class="colorText">Hello</p>
+			</div>
+		</div>
+		
 		<script type="text/javascript" src="js/main.js"></script>
 	</body>
 </html>

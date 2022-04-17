@@ -16,12 +16,93 @@
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+html {
+  height: 100vh;
+  width: 100vw;
+  font-size: 10px;
+  background-color: black;
+  padding: 8% 15% 0% 15%;
+}
+
+h1 {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 800;
+  font-size: 8rem;
+  text-align: center;
+  color: white;
+}
+
+h2 {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+  font-size: 3rem;
+  text-align: center;
+  color: white;
+}
+
+h3 {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 300;
+  font-size: 2.2rem;
+  text-align: center;
+  color: white;
+}
+
+label {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+  text-align: center;
+  color: white;
+}
+
+p {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+  text-align: center;
+  color: white;
+}
+
+.plus{
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+  font-size: 5rem;
+  text-align: center;
+  color: white;
+}
 
 .box {
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
 }
 
 .boxFour {
   background-color: #800080;
+  border-radius: 20px;
+  border: solid 2px white;
+}
+
+.selectSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-self: center;
+}
+
+.colorContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.answer {
+  display: flex;
+  flex-direction: column;
+}
+
+span {
+  margin: 0 10px 0 10px;
 }

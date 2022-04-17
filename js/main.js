@@ -1,3 +1,6 @@
+//says the original purple default
+
+document.getElementById('colorText').textContent = document.getElementById('boxFour').style.backgroundColor
 
 //for box 1
 
@@ -78,6 +81,8 @@ function watchColorPickerOne(event) {
     console.log(rgbOne)
 
     document.getElementById('boxFour').style.backgroundColor = getMixedColor(convertOne(rgbOne), convertTwo(rgbTwo))
+
+    document.getElementById('colorText').textContent = document.getElementById('boxFour').style.backgroundColor
 }
 
 //listening for color picker two
@@ -87,4 +92,6 @@ function watchColorPickerTwo(event) {
     console.log(rgbTwo)
 
     document.getElementById('boxFour').style.backgroundColor = getMixedColor(convertOne(rgbOne), convertTwo(rgbTwo))
+
+    document.getElementById('colorText').textContent = document.getElementById('boxFour').style.backgroundColor
 }
