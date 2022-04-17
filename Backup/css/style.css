@@ -22,6 +22,14 @@
   height: 100px;
 }
 
-.boxFour {
-  background-color: #800080;
+.colorOne {
+  background-color: rgb(255, 0, 0);
+}
+
+.colorTwo {
+  background-color: rgb(0, 0, 255);
+}
+
+.colorThree {
+  background-color: rgb(255,35,65);
 }
