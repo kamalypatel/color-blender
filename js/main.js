@@ -83,6 +83,10 @@ function watchColorPickerOne(event) {
     document.getElementById('boxFour').style.backgroundColor = getMixedColor(convertOne(rgbOne), convertTwo(rgbTwo))
 
     document.getElementById('colorText').textContent = document.getElementById('boxFour').style.backgroundColor
+
+    document.getElementById('spanOne').style.color = `${getMixedColor(convertOne(rgbOne), convertTwo(rgbTwo))}`
+    document.getElementById('spanThree').style.color = `${getMixedColor(convertOne(rgbOne), convertTwo(rgbTwo))}`
+    document.getElementById('spanFour').style.color = `${getMixedColor(convertOne(rgbOne), convertTwo(rgbTwo))}`
 }
 
 //listening for color picker two
@@ -94,4 +98,8 @@ function watchColorPickerTwo(event) {
     document.getElementById('boxFour').style.backgroundColor = getMixedColor(convertOne(rgbOne), convertTwo(rgbTwo))
 
     document.getElementById('colorText').textContent = document.getElementById('boxFour').style.backgroundColor
+
+    document.getElementById('spanOne').style.color = `${getMixedColor(convertOne(rgbOne), convertTwo(rgbTwo))}`
+    document.getElementById('spanThree').style.color = `${getMixedColor(convertOne(rgbOne), convertTwo(rgbTwo))}`
+    document.getElementById('spanFour').style.color = `${getMixedColor(convertOne(rgbOne), convertTwo(rgbTwo))}`
 }

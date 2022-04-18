@@ -103,6 +103,10 @@ p {
   flex-direction: column;
 }
 
-span {
+.spacer {
   margin: 0 10px 0 10px;
+}
+
+.underline {
+  color: #ff007b;
 }
